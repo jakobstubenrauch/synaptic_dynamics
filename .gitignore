@@ -1,0 +1,17 @@
+# Ignore specific folder names anywhere in the tree
+build/
+arrays/
+figs/
+
+# Ignore all dotfiles and dotfolders (except .gitignore itself)
+.*
+!.gitignore
+
+# Ignore specific file types
+*.npy
+*.cpp
+*.so
+*.dll
+
+# Ignore Python cache directories
+__pycache__/
