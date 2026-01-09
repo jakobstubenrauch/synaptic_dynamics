@@ -4,7 +4,7 @@
 
 This repository contains the scripts that were used to produce the figures of
 
-Stubenrauch, Auer, Kempter, and Lindner, Stochastic synaptic dynamics under learning (2025), which is currently under review. For a preprint see
+Stubenrauch, Auer, Kempter, and Lindner, Stochastic synaptic dynamics under learning, which is currently under review. For a preprint see
 
 https://arxiv.org/abs/2508.13846
 
@@ -14,10 +14,10 @@ This code is supplied as free software under the Affero GNU General Public Licen
 
 ## Contributors
 
-Jakob Stubenrauch (1,2), contact: jakob.stubenrauch@rwth-aachen.de
-Naomi Auer (3)
-Richard Kempter (1,3,4)
-Benjamin Lindner (1,2)
+- Jakob Stubenrauch (1,2), contact: jakob.stubenrauch@rwth-aachen.de
+- Naomi Auer (3)
+- Richard Kempter (1,3,4)
+- Benjamin Lindner (1,2)
 
 Affiliations:
 

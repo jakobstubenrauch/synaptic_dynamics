@@ -1,11 +1,14 @@
 # Ignore specific folder names anywhere in the tree
 build/
-arrays/
-figs/
+
+# Ignore contents of arrays and figs folders, but not the folders themselves
+arrays/*
+figs/*
 
 # Ignore all dotfiles and dotfolders (except .gitignore itself)
 .*
 !.gitignore
+!.gitkeep
 
 # Ignore specific file types
 *.npy
