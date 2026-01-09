@@ -14,7 +14,7 @@ This code is supplied as free software under the Affero GNU General Public Licen
 
 ## Contributors
 
-- Jakob Stubenrauch (1,2), contact: jakob.stubenrauch@rwth-aachen.de
+- Jakob Stubenrauch (1,2), contact: jakob.stubenrauch at rwth-aachen.de
 - Naomi Auer (3)
 - Richard Kempter (1,3,4)
 - Benjamin Lindner (1,2)
