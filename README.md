@@ -4,8 +4,9 @@
 
 This repository contains the scripts that were used to produce the figures of
 
-Stubenrauch, Auer, Kempter, and Lindner, Stochastic synaptic dynamics under learning, which is currently under review. For a preprint see
+Stubenrauch, Auer, Kempter, and Lindner, Stochastic synaptic dynamics under learning, 
 
+which is currently under review. For a preprint see
 https://arxiv.org/abs/2508.13846
 
 ## License
@@ -26,8 +27,6 @@ Affiliations:
 3. Institute for Theoretical Biology, Department of Biology, Humboldt University Berlin, 10115 Berlin, German
 4. Einstein Center for Neurosciences Berlin, Berlin 10117, Germany
 
-
-
 ## Installation
 
 1. Clone or download this repository
@@ -39,7 +38,8 @@ python setup.py build_ext --inplace
 ```
 
 ## Reproducing Figures
-To reproduce the Figures 2, 4, and 5, run the respective scripts from the synaptic_dynamics directory, e.g.,
+
+To reproduce Figures 2, 4, and 5, run the respective scripts from the synaptic_dynamics directory, e.g.,
 
 ```bash
 python scripts/fig2.py
@@ -50,3 +50,5 @@ To reproduce Figures 3, 6, 7, and 8, uncomment the respective function call at t
 ```bash
 python scripts/other_figs.py
 ```
+
+Note that evaluating the theoretical results can take several minutes for more involved figures. Performing the numerical simulations can take hundreds of hours, these simulations should be executed on clusters with large numbers of CPUs.
