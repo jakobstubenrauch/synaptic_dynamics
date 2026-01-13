@@ -546,7 +546,7 @@ def fig8_LowNoiseDrift():
         w_edges = 0.005 * np.arange(44)  # Histogram edges for KM coeff estimation
         args = {'nuc': nuc, 'wmin': wmin, 'wmax': wmax, 'mu': mu, 'D': D, 'vt': vt, 'vr': vr,
             'Dc': Dc, 'rac': rac, 'tauc': tauc, 'tauac': tauac, 
-            'dt': dt, 'T': T, 'Twarm': Twarm}
+            'dt': dt, 'T': T, 'Twarm': Twarm, 'boundary': 1}
         trials = 100
         D1, D2, D3, D4 = km_coeffs(trials, args, w_edges, Dt=1e-2, redo=False)
 
